@@ -16,7 +16,7 @@ img{
     max-width: 500px;
     margin: 0 auto;
     padding: 20px;
-    background-color: white;
+    background-color: rgb(177, 171, 171);
     border-radius: 8px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
@@ -52,4 +52,37 @@ li {
    
     margin: 5px 0;
     border-radius: 4px;
+}
+
+.navbar ul {
+    z-index: 1000;
+    list-style-type: none;
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-bottom: 10%;
+}
+
+.navbar ul li{
+    float: left;
+    margin: 10px;
+}
+
+.navbar ul li a{
+   display: block;
+   text-decoration: none;
+   color: #152369;
+   background-color: #aefab0;
+   padding: 5%;
+
+}
+
+.navbar ul li a:hover {
+    background-color: burlywood;
+}
+
+html {
+    scroll-padding-top: 10px; /* Adjust to match height of your navbar */
 }
