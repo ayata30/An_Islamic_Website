@@ -5,11 +5,11 @@ body{
 }
 
 h1{
-    background-color: rgb(234, 235, 157);
+    background-color: rgb(212, 213, 165);
 }
 
 h2{
-    color: rgb(121, 99, 139);
+    color: rgb(145, 144, 53);
 }
 img{
     size:50px;
@@ -67,6 +67,7 @@ li {
     left: 0;
     width: 100%;
     margin-bottom: 10%;
+    background-color: beige;
 }
 
 .navbar ul li{
@@ -80,6 +81,8 @@ li {
    color: #152369;
    background-color: #aefab0;
    padding: 5%;
+   margin: 0%;
+   padding: 0%;
 
 }
 
@@ -90,3 +93,9 @@ li {
 html {
     scroll-padding-top: 10px; /* Adjust to match height of your navbar */
 }
+
+.dhikr html{
+
+    background-color: #5c4caf;
+}
+

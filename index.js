@@ -17,4 +17,131 @@ addButton.addEventListener("click", function() {
         // Clear the input field
         inputField.value = "";
     }
+})
+
+
+
+/* Practing javascript code  - its un related to the project hence it is commneted out
+// let 
+// const
+//var ( outdated wayy to create variables)
+
+let userEmail = "biidy@gdgd";
+let age = 99;
+
+age = age + 1;
+
+// const varaibles are always constant 
+
+
+let hadFood = true;
+
+if(hadFood == true){
+    return 
+}
+
+ loggedIn && hasMebership ? "show vide" : "dont show vide"
+
+ //loops - repeat same code over and over agin
+
+//DRY - Dont repeat yourself - use loop
+ 
+
+for(let i = 0; i < 5; i++){
+    console.log(i)
+
+}
+
+
+for(let i =1; i <= 15; i++){
+    if(i % 5 == 0){
+        console.log("ASAP frontednend");
+    }
+    else if(i % 2 == 0 ){
+        console.log("Frontend")
+    }
+    else {
+        console.log("ASAPS");
+    }
+  
+}
+
+let str = "Asjajs";
+
+for(i = 0; i < str.length; i++){
+    comdole(str[i]);
+}
+
+
+//functions - resuable cloks of cod ethat perfrom specfic tasks
+// 
+
+
+function greetUser(name) {
+ 
+    console.log(`kskksk, ${name}`)
+}
+
+greetUser("nsus")
+
+
+function sum(num1, num2){
+    return num1 + num2;
+}
+
+sum(2,4)
+
+//regular function
+function convertusdtoasd(usd){
+ let aud = usd * 1.5;
+ return aud;
+}
+
+
+//arrow function
+const convertUsdoo = (dollars) => {
+
+    retun
+}
+
+
+
+
+
+
+convertusdtoasd(100)
+
+
+
+
+
+
+let array = ["lslsl","sjsj"];
+
+array[0]
+
+console.log(array[array.length -1 ])
+
+array.push("bob");
+array.filter(() => {})
+
+
+
+let arrays = [23,12,17,29];
+
+let filteredArray = arrays.filter((element) => {
+    return element <= 15;
 });
+
+console.log(filteredArray)
+
+
+let arraye = [18, 20,16,15,21];
+
+let filteredArrays = array.filter((element)=>
+    {
+            return element <= 18;
+});
+
+console.log()
+*/
