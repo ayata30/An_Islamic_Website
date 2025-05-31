@@ -21,6 +21,27 @@ addButton.addEventListener("click", function() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Practing javascript code  - its un related to the project hence it is commneted out
 // let 
 // const
